@@ -1,0 +1,39 @@
+body {
+  background: url(background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+h1 {
+  color: orange;
+  text-align: center !important;
+  margin-left: 130px;
+}
+label {
+  color: white;
+  font-size: 20px;
+}
+
+.btn-info {
+  float: right;
+  margin-right: 20px;
+}
+
+canvas {
+  animation-name: shadow;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  border-color: white;
+  margin-top: 40px;
+  border-radius: 10px;
+}
+@keyframes shadow {
+  from {
+    box-shadow: 2px 2px 80px #1100ffd7;
+  }
+  to {
+    box-shadow: 2px 2px 80px #ff0707;
+  }
+}
+.btn-danger {
+  margin-top: 580px;
+}
